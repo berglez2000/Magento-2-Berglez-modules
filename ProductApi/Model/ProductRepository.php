@@ -31,7 +31,7 @@ class ProductRepository implements ProductRepositoryInterface
         try {
             return $this->productRepository->getById($id);
         } catch (NoSuchEntityException $e) {
-            throw new NoSuchEntityException(__('Product with ID "%1" does not existtt.', $id));
+            throw new NoSuchEntityException(__('Product with ID "%1" does not exist.', $id));
         }
     }
 }

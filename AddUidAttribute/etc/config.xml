@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <berglez_section>
+            <general>
+                <uid_prefix_home_page>home-page</uid_prefix_home_page>
+                <uid_prefix_category_page>category-page</uid_prefix_category_page>
+                <uid_prefix_product_page>product-page</uid_prefix_product_page>
+            </general>
+        </berglez_section>
+    </default>
+</config>

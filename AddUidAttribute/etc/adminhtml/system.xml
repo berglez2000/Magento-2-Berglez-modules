@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/system_file.xsd">
+    <system>
+        <tab id="berglez" translate="label" sortOrder="10">
+            <label>Berglez</label>
+        </tab>
+        <section id="berglez_section" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Berglez Settings</label>
+            <tab>berglez</tab>
+            <resource>Berglez_AddUidAttribute::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Uid Attributes</label>
+                <field id="uid_prefix_home_page" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>UID Prefix Home page</label>
+                    <validate>validate-alphanum</validate>
+                </field>
+                <field id="uid_prefix_category_page" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>UID Prefix Category page</label>
+                    <validate>validate-alphanum</validate>
+                </field>
+                <field id="uid_prefix_product_page" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>UID Prefix Product page</label>
+                    <validate>validate-alphanum</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
